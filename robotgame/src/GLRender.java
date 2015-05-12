@@ -73,10 +73,10 @@ public class GLRender implements GLEventListener {
     }
 
     public void Prepare(float dt) {
-        rotationAngle += 45.0f * dt;	// increase our rotation angle counter
-        if (rotationAngle >= 360.0f) // if we've gone in a circle, reset counter
+        rotationAngle += 20.0f * dt;	// increase our rotation angle counter
+        if (rotationAngle >= 225.0f) // if we've gone in a circle, reset counter
         {
-            rotationAngle = 0.0f;
+            rotationAngle = 225.0f;
         }
 
         robot.Prepare(dt);

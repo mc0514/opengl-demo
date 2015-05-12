@@ -5,7 +5,7 @@
 	<classpathentry kind="lib" path="C:/Users/MiChao/Desktop/3d-robot-Java-opengl-master/robotgame/lib/gluegen-rt.jar"/>
 	<classpathentry kind="lib" path="C:/Users/MiChao/Desktop/3d-robot-Java-opengl-master/robotgame/lib/jogl.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/MiChao/Desktop/jogl-1.1.1a-windows-amd64/jogl-1.1.1-windows-amd64/lib"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/MiChao/Desktop/3d-robot-Java-opengl-master/robotgame/libs"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="bin"/>

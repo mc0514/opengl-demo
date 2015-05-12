@@ -170,9 +170,9 @@ public class Robot {
             }
 
             // change state if exceeding angles
-            if (armAngles[side] >= 15.0f) {
+            if (armAngles[side] >= 20.0f) {
                 armStates[side] = "BACKWARD_STATE";
-            } else if (armAngles[side] <= -15.0f) {
+            } else if (armAngles[side] <= -20.0f) {
                 armStates[side] = "FORWARD_STATE";
             }
 
@@ -184,9 +184,9 @@ public class Robot {
             }
 
             // change state if exceeding angles
-            if (legAngles[side] >= 15.0f) {
+            if (legAngles[side] >= 20.0f) {
                 legStates[side] = "BACKWARD_STATE";
-            } else if (legAngles[side] <= -15.0f) {
+            } else if (legAngles[side] <= -20.0f) {
                 legStates[side] = "FORWARD_STATE";
             }
         }
